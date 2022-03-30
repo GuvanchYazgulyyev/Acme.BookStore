@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Acme.BookStore.Web.Pages.Books
 {
-    public class EditModalModel : PageModel
+    public class EditModalModel : BookStorePageModel
     {
         [HiddenInput]
         [BindProperty(SupportsGet = true)]

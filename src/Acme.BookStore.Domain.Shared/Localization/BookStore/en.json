@@ -11,6 +11,7 @@
     "Delete": "Delete",
     "Edit": "Edit",
     "BookDeletionConfirmationMessage": "Are you sure to do delete the book '{0}'?",
-    "SuccessfullyDeleted": "Successfully Deleted!"
+    "SuccessfullyDeleted": "Successfully Deleted!",
+    "BookStore:00001": "There is already an author with the same name: {name}"
   }
 }

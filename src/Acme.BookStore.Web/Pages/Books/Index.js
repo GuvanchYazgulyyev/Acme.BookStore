@@ -20,6 +20,7 @@
                         items: [
                             {
                                 text: l('Edit'),
+                                visible: abp.auth.isGranted('BookStore.Books.Edit'), // İzinleri Kontrol Et!
                                 action: function (data) {
                                     editModal.open({ id: data.record.id });
                                 }
@@ -27,6 +28,8 @@
                             // Silmek için
                             {
                                 text: l('Delete'),
+                                visible: abp.auth.isGranted('BookStore.Books.Delete'), // İzinleri Kontrol Et!
+
                                 confirmMeesage: function (data) {
                                     return l('BookDeletionConfirmationMessage', data.record.name);
                                 },
