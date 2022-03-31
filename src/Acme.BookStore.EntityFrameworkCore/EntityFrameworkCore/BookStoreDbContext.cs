@@ -60,7 +60,7 @@ public class BookStoreDbContext :
     public DbSet<Book> Books { get; set; }
     // Authors
     public DbSet<Author> Authors { get; set; }
-
+    
     #endregion
 
     public BookStoreDbContext(DbContextOptions<BookStoreDbContext> options)
