@@ -55,7 +55,8 @@ public class BookStoreDbContext :
     public DbSet<Tenant> Tenants { get; set; }
     public DbSet<TenantConnectionString> TenantConnectionStrings { get; set; }
 
-    // Books
+    // Books 
+    
     public DbSet<Book> Books { get; set; }
     // Authors
     public DbSet<Author> Authors { get; set; }
